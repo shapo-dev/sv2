@@ -62,7 +62,12 @@ public function createConfig(Form\Container\TabContainer $container)
         'SocialMediaGoogleplus',
         'SocialMediaGoogleplus'
     );
-
+    // SocialMediaYoutube
+    $SocialMediaGoogleplus = $this->createTextField(
+        'SocialMediaYoutube',
+        'SocialMediaYoutube',
+        'SocialMediaYoutube'
+    );
 
 
 
@@ -72,6 +77,8 @@ public function createConfig(Form\Container\TabContainer $container)
     $fieldset->addElement($SocialMediaInstagram);
     $fieldset->addElement($SocialMediaPinterest);
     $fieldset->addElement($SocialMediaGoogleplus);
+    $fieldset->addElement($SocialMediaYoutube);
+
 
     // Create the tab which will be named "My custom colors"
     $tab = $this->createTab(
