@@ -24,7 +24,7 @@ public function createConfig(Form\Container\TabContainer $container)
     $social = $this->createCheckboxField(
         'social_icons',
         'Social Icons',
-        true
+        false
     );
 
     $fieldset->addElement($social);
@@ -40,32 +40,32 @@ public function createConfig(Form\Container\TabContainer $container)
     // SocialMediaTwitter
     $SocialMediaTwitter = $this->createTextField(
         'SocialMediaTwitter',
-        'SocialMediaTwitter',
+        'Twitter',
         'SocialMediaTwitter'
     );
 
     // SocialMediaInstagram
     $SocialMediaInstagram = $this->createTextField(
         'SocialMediaInstagram',
-        'SocialMediaInstagram',
+        'Instagram',
         'SocialMediaInstagram'
     );
     // SocialMediaPinterest
     $SocialMediaPinterest = $this->createTextField(
         'SocialMediaPinterest',
-        'SocialMediaPinterest',
+        'Pinterest',
         'SocialMediaPinterest'
     );
     // SocialMediaGoogleplus
     $SocialMediaGoogleplus = $this->createTextField(
         'SocialMediaGoogleplus',
-        'SocialMediaGoogleplus',
+        'Googleplus',
         'SocialMediaGoogleplus'
     );
     // SocialMediaYoutube
     $SocialMediaYoutube = $this->createTextField(
         'SocialMediaYoutube',
-        'SocialMediaYoutube',
+        'Youtube',
         'SocialMediaYoutube'
     );
 
