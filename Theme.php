@@ -63,7 +63,7 @@ public function createConfig(Form\Container\TabContainer $container)
         'SocialMediaGoogleplus'
     );
     // SocialMediaYoutube
-    $SocialMediaGoogleplus = $this->createTextField(
+    $SocialMediaYoutube = $this->createTextField(
         'SocialMediaYoutube',
         'SocialMediaYoutube',
         'SocialMediaYoutube'
@@ -83,7 +83,7 @@ public function createConfig(Form\Container\TabContainer $container)
     // Create the tab which will be named "My custom colors"
     $tab = $this->createTab(
         'social_media_tab',
-        'Social Media'
+        'Social Media Icons'
     );
 
     // ...add the fieldset to the tab
