@@ -1,5 +1,6 @@
-{if $theme.social != ''}
 {block name='frontend_index_footer_social_media'}
+{if $theme.social != ''}
+
 	<div class="social-media-footer">
 		<ul class="social-media-links">
 			{if $theme.SocialMediaFacebook != ''}
@@ -23,5 +24,6 @@
 
 		</ul>
 	</div>
-{/block}
+
 {if}
+{/block}
