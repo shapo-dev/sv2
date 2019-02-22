@@ -17,7 +17,7 @@
 			<li class="google"><a href="https://plus.google.com/{$theme.SocialMediaGoogleplus}" target="_blank"><i class="ti-google"></i></a></li>
 			{/if}			
 			{if $SocialMediaYoutube != ''}
-			<li class="youtube"><a href="https://youtube.de/{$theme.SocialMediaYoutube}" target="_blank"><i class="ti-youtube"></i></a></li>
+			<li class="youtube"><a href="https://youtube.de/{$theme.SocialMediaYoutube}" target="_blank"><i class="fa fa-youtube"></i></a></li>
 			{/if}	
 
 		</ul>
