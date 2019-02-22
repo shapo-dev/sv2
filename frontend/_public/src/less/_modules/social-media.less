@@ -1,12 +1,14 @@
 .social-media-links li {
     list-style: none;
     display: inline-block;
-    .unitize(padding, 20);
+    .unitize(padding, 20 , 0);
     font-size: 2em;
 }
 
 .social-media-links li a {
     color: @gray;
+    transition: background-color 1s ease-in-out 0s;
+
 }
 .social-media-links li a:hover {
     color: #fff;
