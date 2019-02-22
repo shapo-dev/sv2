@@ -1,9 +1,7 @@
+{if $theme.social != ''}
 {block name='frontend_index_footer_social_media'}
-
 	<div class="social-media-footer">
-	{if $theme.social = true}
-		
-
+	
 		<ul class="social-media-links">
 			{if $theme.SocialMediaFacebook != ''}
 			<li class="facebook"><a href="https://www.facebook.com/{$theme.SocialMediaFacebook}" target="_blank"><i class="ti-facebook"></i></a></li>
@@ -25,6 +23,6 @@
 			{/if}	
 
 		</ul>
-	{/if}
 	</div>
 {/block}
+{/if}
