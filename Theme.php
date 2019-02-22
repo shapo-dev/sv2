@@ -23,7 +23,7 @@ public function createConfig(Form\Container\TabContainer $container)
     // Create the textfield
     $social = $this->createCheckboxField(
         'social_icons',
-        'Social Icons - ON / OFF',
+        'Social Media Icons',
         true
     );
 
