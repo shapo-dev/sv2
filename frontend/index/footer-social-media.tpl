@@ -1,4 +1,4 @@
-{if $theme.social == true || $theme.social == 1 }
+{if $theme.social_icons == true || $theme.social_icons == 1 }
 {block name='frontend_index_footer_social_media'}
 	<div class="social-media-footer">
 	
