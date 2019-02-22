@@ -45,7 +45,7 @@
 
                         {block name="cookie_permission_accept_button_fixed"}
                             <a href="#" class="cookie-permission--accept-button btn is--primary is--large is--center">
-                                {s name="cookiePermission/buttonText"}{/s}
+                                KUN{s name="cookiePermission/buttonText"}{/s}
                             </a>
                         {/block}
                     </div>
@@ -77,7 +77,7 @@
 
                         <div class="cookie-removal--buttons">
                             <a class="btn is--secondary cookie-permission--accept-button is--center">{s name="cookiePermission/buttonText"}{/s}</a>
-                            <a class="btn cookie-permission--close-button is--center"> KUN{s name="cookiePermission/close"}{/s}</a>
+                            <a class="btn cookie-permission--close-button is--center">{s name="cookiePermission/close"}{/s}</a>
                         </div>
                     </div>
                 {/block}
