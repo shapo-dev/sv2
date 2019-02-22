@@ -1,7 +1,7 @@
 {block name='frontend_index_footer_social_media'}
 
 	<div class="social-media-footer">
-	{if $theme.social == 1}
+	{if $theme.social == true}
 		
 
 		<ul class="social-media-links">
