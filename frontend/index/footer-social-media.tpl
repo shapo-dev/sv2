@@ -1,5 +1,5 @@
 {block name='frontend_index_footer_social_media'}
-{if $theme.social = 1}
+{if $theme.social != 0}
 
 	<div class="social-media-footer">
 		<ul class="social-media-links">
