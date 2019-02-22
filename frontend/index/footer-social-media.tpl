@@ -21,7 +21,6 @@
 			<li class="youtube"><a href="https://youtube.de/{$theme.SocialMediayoutube}" target="_blank"><i class="ti-youtube"></i></a></li>
 			{/if}	
 
-
 		</ul>
 	</div>
 
