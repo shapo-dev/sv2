@@ -44,7 +44,7 @@
                         {/block}
 
                         {block name="cookie_permission_accept_button_fixed"}
-                            <a href="#" class="cookie-permission--accept-button btn is--primary is--large is--center">
+                            <a href="#" class="cookie-permission--accept-button btn is--link is--large is--center">
                                 <i class="ti-close"></i>
                                 {* s name="cookiePermission/buttonText"}{/s *}
                             </a>
