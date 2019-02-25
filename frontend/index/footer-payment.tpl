@@ -8,14 +8,6 @@
                 <p class="column--desc">
 <ul class="payment_providers">
 	
-	<li class="footer_paypal"><a href="{url controller=custom sCustom=6}#paypal" title="paypal"><img src="{media path="media/vector/image/paypal.svg"}"></a></li>
-	<li class="footer_mastercard"><a href="{url controller=custom sCustom=6}#creditcard" title="mastercard"><img src="{media path="media/vector/image/mastercard.svg"}"></a></li>
-	<li class="footer_visa"><a href="{url controller=custom sCustom=6}#creditcard" title="visa"><img src="{media path="media/vector/image/visa.svg"}"></a></li>	
-
-
-	<li class="footer_giropay"><a href="{url controller=custom sCustom=6}#creditcard" title="giropay"><img src="{media path="media/vector/image/giropay.svg"}"></a></li>	
-
-
 	<!-- LOAD VIA CDN -->
 	<li class="klarna paynow">
 	<a href="{url controller=custom sCustom=6}#klarna" title="klarna sofort">
@@ -38,6 +30,12 @@
 
 	</a>
 	</li>	
+
+
+	<li class="footer_paypal"><a href="{url controller=custom sCustom=6}#paypal" title="paypal"><img src="{media path="media/vector/image/paypal.svg"}"></a></li>
+	<li class="footer_mastercard"><a href="{url controller=custom sCustom=6}#creditcard" title="mastercard"><img src="{media path="media/vector/image/mastercard.svg"}"></a></li>
+	<li class="footer_visa"><a href="{url controller=custom sCustom=6}#creditcard" title="visa"><img src="{media path="media/vector/image/visa.svg"}"></a></li>	
+
 
 
 
