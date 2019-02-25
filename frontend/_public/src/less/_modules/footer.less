@@ -15,7 +15,21 @@
 	color: @gray-light;
 }
 
+.backToTop {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    background: transparent;
+    padding: 20px;
+    .unitize(font-size, 20);
+}
+.backToTop:hover {
+	background-color: @brand-primary;
+	color: #fff;
+}
+
+
 .footer-logo {
-    max-width: 170px;
-    margin: 0.5em auto;
+    .unitize(max-width, 170);
+     margin: 0.5em auto;
 }
