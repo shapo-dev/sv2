@@ -96,6 +96,9 @@
     </div>
 {/block}
 
+
+
+{* 
 {block name="frontend_index_footer_column_newsletter"}
     <div class="footer--column column--newsletter is--last block">
         {block name="frontend_index_footer_column_newsletter_headline"}
@@ -129,12 +132,12 @@
                             </div>
                         {/block}
 
-                        {* Data protection information *}
+                        {* Data protection information 
                         {block name="frontend_index_footer_column_newsletter_privacy"}
                             {if {config name=ACTDPRTEXT} || {config name=ACTDPRCHECK}}
                                 {$hideCheckbox=false}
 
-                                {* If a captcha is active, the user has to accept the privacy statement on the newsletter page *}
+                                {* If a captcha is active, the user has to accept the privacy statement on the newsletter page 
                                 {if {config name=newsletterCaptcha} !== "nocaptcha"}
                                     {$hideCheckbox=true}
                                 {/if}
@@ -148,3 +151,4 @@
         {/block}
     </div>
 {/block}
+*}
