@@ -13,6 +13,17 @@
 	<li class="footer_sofort"><a href="{url controller=custom sCustom=6}#creditcard" title="SOFORT"><img src="{media path="media/vector/image/sofort.svg"}"></a></li>	
 	<li class="footer_giropay"><a href="{url controller=custom sCustom=6}#creditcard" title="giropay"><img src="{media path="media/vector/image/giropay.svg"}"></a></li>	
 
+
+
+	<li class="klarna paynow">
+	<a href="{url controller=custom sCustom=6}#klarna" title="klarna">
+		<img src="{media path="media/vector/image/paypal.svg"}">
+	    <img src="{link file='frontend/_public/img/svg/paynow.svg'}" alt="klarna paynow" />
+
+	</a>
+	</li>
+
+
 	<li class="dhl"><a href="{url controller=custom sCustom=6}#versandarten" title="dhl"><img src="{media path="media/vector/image/dhl.svg"}"></a></li>
 	{*	<li class="ssl"><a href="{url controller=custom sCustom=6}#ssl" title="SSL"><img src="{media path="media/vector/image/shield.svg"}"></a></li> *}
 
