@@ -96,7 +96,9 @@
     </div>
 {/block}
 
-
+{block name="frontend_index_footer_column_newsletter"}
+{include file="frontend/index/footer-payment.tpl"}
+{/block}
 
 {* 
 {block name="frontend_index_footer_column_newsletter"}
