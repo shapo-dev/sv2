@@ -1,6 +1,6 @@
 {extends file='frontend/index/index.tpl'}
 
-
+test
 
 {* Newsletter *}
 {block name='frontend_index_newsletter' }
