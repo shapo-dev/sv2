@@ -1,5 +1,5 @@
 {* Newsletter *}
-{block name='frontend_index_footer_menu' prepend}
+{block name='frontend_index_footer_newsletter'}
     {if $Controller|lower == 'index'}
     NEWSLETTER
         <img src="/media/image/sicheronline.png" alt="sicher online einkaufen" id="sicher_online"/>
