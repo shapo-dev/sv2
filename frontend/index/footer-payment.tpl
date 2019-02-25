@@ -16,10 +16,10 @@
 	<li class="footer_giropay"><a href="{url controller=custom sCustom=6}#creditcard" title="giropay"><img src="{media path="media/vector/image/giropay.svg"}"></a></li>	
 
 
-
+	<!-- LOAD VIA CDN -->
 	<li class="klarna paynow">
 	<a href="{url controller=custom sCustom=6}#klarna" title="klarna paynow">
-	    <img src="{link file='frontend/_public/src/img/svg/paynow.svg'}" alt="klarna paynow" />
+	    <img src="https://cdn.klarna.com/1.0/shared/image/generic/badge/de_de/pay_now/standard/pink.svg" alt="klarna paynow" />
 
 	</a>
 	</li>
@@ -27,14 +27,14 @@
 
 	<li class="klarna paylater">
 	<a href="{url controller=custom sCustom=6}#klarna" title="klarna paylater">
-	    <img src="{link file='frontend/_public/src/img/svg/paylater.svg'}" alt="klarna paylater" />
+	    <img src="https://cdn.klarna.com/1.0/shared/image/generic/badge/de_de/pay_later/standard/pink.svg" alt="klarna paylater" />
 
 	</a>
 	</li>
 
 	<li class="klarna sliceit">
-	<a href="{url controller=custom sCustom=6}#klarna" title="klarna sliceit">
-	    <img src="{link file='frontend/_public/src/img/svg/sliceit.svg'}" alt="klarna sliceit" />
+	<a href="{url controller=custom sCustom=6}#klarna">
+	    <img src="https://cdn.klarna.com/1.0/shared/image/generic/badge/de_de/slice_it/standard/pink.svg" />
 
 	</a>
 	</li>	
