@@ -15,7 +15,7 @@ It contains the viewport specific styles inside media queries.
 
 @media screen and (min-width: @tabletViewportWidth) {
     .navigation-main {
-        border-bottom: 1px solid @gray-light;
+        border-bottom: 0px solid @gray-light;
         display: block;
         position: relative;
 
@@ -59,6 +59,8 @@ It contains the viewport specific styles inside media queries.
     .navigation-main {
         .navigation--list {
             padding: 0;
+            border-bottom: 1px solid @gray-light;
+
         }
     }
 }
