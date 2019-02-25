@@ -1,3 +1,9 @@
+{* Newsletter *}
+{if $sCategoryCurrent == $sCategoryStart && $Controller == 'index'}
+NEWSLETTER ONY HOME
+{/if}
+
+
 {* Footer menu *}
 {block name='frontend_index_footer_menu'}
     <div class="footer--columns block-group">
