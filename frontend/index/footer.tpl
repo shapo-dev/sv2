@@ -44,10 +44,11 @@
 
 
             {* Social Icons *}
+            {if $theme.social_icons == true || $theme.social_icons == 1 }
             {block name="footer_social_media_icons"}
             {include file='frontend/index/footer-social-media.tpl'}
             {/block}
-
+            {/}
 
             {* Copyright *}
             {block name="frontend_index_shopware_footer_copyright"}
