@@ -1,16 +1,9 @@
-.content-main {
-    box-shadow: none;
-}
-
-
-
 @media screen and(min-width: @tabletViewportWidth) {
     .content-main {
-        .box-shadow(0 0 0px 0px @border-color);
+        .box-shadow(none);
 
         &:not(.is--small) {
             .unitize(min-height, 750);
-            min-height: 100vh;
         }
     }
 
@@ -27,8 +20,7 @@
 
         &:not(.is--small) {
             .unitize(min-height, 700);
-            min-height: 100vh;
-            
+
         }
     }
 
