@@ -1,7 +1,10 @@
 {* Newsletter *}
-{if $sCategoryCurrent == $sCategoryStart && $Controller == 'index'}
-NEWSLETTER ONY HOME
-{/if}
+{block name='frontend_index_footer_menu' append}
+    {if $Controller|lower == 'index'}
+    NEWSLETTER
+        <img src="/media/image/sicheronline.png" alt="sicher online einkaufen" id="sicher_online"/>
+    {/if}
+{/block}
 
 
 {* Footer menu *}
