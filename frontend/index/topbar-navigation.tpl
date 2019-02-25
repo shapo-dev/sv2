@@ -1,43 +1,6 @@
-{* Top bar navigation *}
-{block name="frontend_index_top_bar_nav"}
-
-    {block name="shapo-top-usp-list"}
-    <div class="top_bar_left">
-    <div class="shapo-top-usp-list">
-        <ul>
-            {if $theme.topbar_feat_icon_1 != '' || $theme.topbar_feat_text_1 != ''  }
-            <li><a href="{$theme.topbar_feat_link_1}"><i class="{$theme.topbar_feat_icon_1}"></i>{$theme.topbar_feat_text_1}</a></li>
-            {/if}
-        </ul>
-    </div>
-    </div>
-
-
-    <div class="top_bar_mid">
-    <div class="shapo-top-usp-list">
-        <ul>
-            {if $theme.topbar_feat_icon_2 != '' || $theme.topbar_feat_text_2 != ''  }
-            <li><a href="{$theme.topbar_feat_link_2}"><i class="{$theme.topbar_feat_icon_2}"></i>{$theme.topbar_feat_text_2}</a></li>
-            {/if}
-        </ul>
-    </div>
-    </div>
-
-
-
-    <div class="top_bar_right">
-    <div class="shapo-top-usp-list">
-        <ul>
-            {if $theme.topbar_feat_icon_3 != '' || $theme.topbar_feat_text_3 != ''  }
-            <li><a href="{$theme.topbar_feat_link_3}"><i class="{$theme.topbar_feat_icon_3}"></i>{$theme.topbar_feat_text_3}</a></li>
-            {/if}
-        </ul>
-    </div>
-
-
 {* Top bar main *}
 {block name="frontend_index_top_bar_main"}
-    <div class="top-bar">
+    <div class="top-bar modded">
 
         {* Top bar main container *}
         {block name="frontend_index_top_bar_main_container"}
