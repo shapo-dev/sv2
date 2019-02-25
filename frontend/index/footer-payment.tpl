@@ -17,7 +17,7 @@
 
 	<li class="klarna paynow">
 	<a href="{url controller=custom sCustom=6}#klarna" title="klarna">
-	    <img src="{link file='frontend/_public/src\img/svg/paynow.svg'}" alt="klarna paynow" />
+	    <img src="{link file='frontend/_public/src/img/svg/paynow.svg'}" alt="klarna paynow" />
 
 	</a>
 	</li>
