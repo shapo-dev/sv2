@@ -60,33 +60,9 @@
             <div class="column--content">
                 <p class="column--desc">
 	
-	<ul class="delivery_providers">
+	<ul class="payment_providers">
 	
 	
-
-
-	<li class="klarna paynow">
-	<a href="{url controller=custom sCustom=6}#klarna" title="klarna paynow">
-	    <img src="{link file='frontend/_public/src/img/svg/paynow.svg'}" alt="klarna paynow" />
-
-	</a>
-	</li>
-
-
-	<li class="klarna paylater">
-	<a href="{url controller=custom sCustom=6}#klarna" title="klarna paylater">
-	    <img src="{link file='frontend/_public/src/img/svg/paylater.svg'}" alt="klarna paylater" />
-
-	</a>
-	</li>
-
-	<li class="klarna sliceit">
-	<a href="{url controller=custom sCustom=6}#klarna" title="klarna sliceit">
-	    <img src="{link file='frontend/_public/src/img/svg/sliceit.svg'}" alt="klarna sliceit" />
-
-	</a>
-	</li>	
-
 
 	<li class="dhl"><a href="{url controller=custom sCustom=6}#versandarten" title="dhl"><img src="{media path="media/vector/image/dhl.svg"}"></a></li>
 
