@@ -48,7 +48,7 @@
             {block name="footer_social_media_icons"}
             {include file='frontend/index/footer-social-media.tpl'}
             {/block}
-            {/}
+            {/if}
 
             {* Copyright *}
             {block name="frontend_index_shopware_footer_copyright"}
