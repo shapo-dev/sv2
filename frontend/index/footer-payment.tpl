@@ -47,30 +47,5 @@
                 </p>    
 
 
-
-
-
-    <div class="footer--column column--delivery is--last block">
-        {block name="frontend_index_footer_column_payment_headline"}
-            <div class="column--headline">{s name="sFooterDeliveryHead"}{/s}</div>
-        {/block}
-
-            {block name="frontend_index_footer_column_delivery_content"}
-            <div class="column--content">
-                <p class="column--desc">
-	
-	<ul class="payment_providers">
-	
-	
-
-	<li class="dhl"><a href="{url controller=custom sCustom=6}#versandarten" title="dhl"><img src="{media path="media/vector/image/dhl.svg"}"></a></li>
-
-
-
-</ul>
-
-                </p>    
-
-
     </div>
-{/block}                          
+{/block}
