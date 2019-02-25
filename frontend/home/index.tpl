@@ -18,7 +18,7 @@
 
 {* Main content *}
 {block name='frontend_index_content'}
-    <div class="content content--home">
+    <div class="content content--home test">
 
         {block name='frontend_home_index_banner'}
             {* Banner *}
