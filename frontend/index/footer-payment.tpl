@@ -47,8 +47,7 @@
                 </p>    
 
 
-    </div>
-{/block}
+
 
 
     <div class="footer--column column--delivery is--last block">
