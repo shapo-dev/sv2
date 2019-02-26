@@ -1,6 +1,6 @@
 .footer-main {
     background: #000;
-    color: #fff;
+    color: @gray-light;
 }
 .footer-main .container {
     background: transparent;
@@ -9,6 +9,7 @@
 
 .footer-main .column--headline {
 	text-transform: uppercase;
+    color: @gray-light; 
 }
 
 .footer-main .navigation--link {
@@ -22,14 +23,15 @@
     background: transparent;
     padding: 20px;
     .unitize(font-size, 20);
+    color: @gray-light;
+
 }
 .backToTop:hover {
-	background-color: @brand-primary;
 	color: #fff;
 }
 
 
 .footer-logo {
-    .unitize(max-width, 170);
+    .unitize(height, 40);
      margin: 0.5em auto;
 }
