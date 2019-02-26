@@ -8,10 +8,13 @@
             <div class="newsletter--footer-headline"><h2 class="newsletter--title">{s name="sFooterNewsletter"}{/s}</h2></div>
             <div class="newsletter--footer-benefits">
             	<ul>
-            		<li>icon</li>
-            		<li>icon</li>
+            		<li><i class="ti ti-check"></i> {s name="sFooterNewsletterBenefit1"}{/s}</li>
+            		<li><i class="ti ti-check"></i> {s name="sFooterNewsletterBenefit2"}{/s}</li>
+            		<li><i class="ti ti-check"></i> {s name="sFooterNewsletterBenefit3"}{/s}</li>
+
             	</ul>
             </div>
+
 
 
 
