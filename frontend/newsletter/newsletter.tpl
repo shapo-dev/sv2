@@ -11,7 +11,7 @@
 	        {/if}
 
 		   	<button type="submit" class="newsletter--button btn">
-		    <span class="button--text"><i class="ti ti-envelope"></i>{s name='IndexFooterNewsletterSubmit'}{/s}</span>
+		    <span class="button--text"><i class="ti ti-email"></i>{s name='IndexFooterNewsletterSubmit'}{/s}</span>
 			</button>
 		</form>
 
