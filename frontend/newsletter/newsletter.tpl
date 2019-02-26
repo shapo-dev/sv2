@@ -5,7 +5,10 @@
 		<form class="newsletter--form" action="{url controller='newsletter'}" method="post">
 		    <input type="hidden" value="1" name="subscribeToNewsletter" />
 
-            <div class="newsletter--footer-headline"><h2 class="newsletter--title">{s name="sFooterNewsletter"}{/s}</h2></div>
+            <div class="newsletter--footer-headline">
+            	<h2 class="newsletter--title">{s name="sFooterNewsletterHead"}{/s}</h2>
+            </div>
+            
             <div class="newsletter--footer-benefits">
             	<span><i class="ti ti-check"></i> {s name="sFooterNewsletterBenefit1"}{/s}</span>
             	<span><i class="ti ti-check"></i> {s name="sFooterNewsletterBenefit2"}{/s}</span>
