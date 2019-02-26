@@ -1,4 +1,7 @@
 {block name='frontend_footer_newsletter'}		
+<div class="newsletter--content content block">
+	
+
 		<form class="newsletter--form" action="{url controller='newsletter'}" method="post">
 		    <input type="hidden" value="1" name="subscribeToNewsletter" />
 
@@ -11,4 +14,5 @@
 		    Anmelden<span class="button--text">{s name='IndexFooterNewsletterSubmit'}{/s}</span>
 			</button>
 		</form>
+</div>		
 {/block}	    
