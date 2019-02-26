@@ -7,19 +7,20 @@
 
 		    <h4 class="newsletter--heading">Jetzt zum Newsletter anmelden und einen 25€ Einkaufsgutschein erhalten</h4>
 
-
+		    <div class="newsletter--main-content">
 		    <input type="email" name="newsletter" class="newsletter--field" placeholder="{s name="IndexFooterNewsletterValue"}{/s}" />
 	        {if {config name="newsletterCaptcha"} !== "nocaptcha"}
 	            <input type="hidden" name="redirect">
 	        {/if}
-
-		   	<button type="submit" class="newsletter--button btn">
+	    	<button type="submit" class="newsletter--button btn">
 		    <span class="button--text"><i class="ti ti-email"></i>{s name='IndexFooterNewsletterSubmit'}{/s}</span>
 			</button>
-
-
+			</div>
+		   	
+			<div class="newsletter--cookies">
 			<small>cookie hinweis</small>
-
+			</div>
+		
 		</form>
 
 </div>		
