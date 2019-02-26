@@ -1,6 +1,10 @@
 {* Top bar main *}
 {block name="frontend_index_top_bar_main"}
-    <div class="top-bar modded">
+    <div class="top-bar">
+    {block name="frontend_index_top_bar_usps"}
+    ups    
+    {/block}
+
 
         {* Top bar main container *}
         {block name="frontend_index_top_bar_main_container"}
