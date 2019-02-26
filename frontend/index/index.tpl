@@ -3,7 +3,7 @@
 
 {block name='frontend_index_content_main'}
     {$smarty.block.parent}
-    // place your new element here
+
 
     {if $Controller|lower == 'index'}
     {block name="frontend_index_newsletter"}
@@ -11,7 +11,7 @@
     {/block}    
     {/if}
 
-    
+
 {/block}
 
 
