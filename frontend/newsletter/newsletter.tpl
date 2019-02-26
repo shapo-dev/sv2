@@ -5,7 +5,7 @@
 		<form class="newsletter--form" action="{url controller='newsletter'}" method="post">
 		    <input type="hidden" value="1" name="subscribeToNewsletter" />
 
-		    <h4 class="newsletter--heading">Jetzt zum Newsletter anmelden und einen 25€ Einkaufsgutschein erhalten</h4>
+		    <h4 class="newsletter--heading">Melde dich noch heute an und erfahre als erstes von Neuigkeiten und erhalte Zugang zu exklusiven Aktionen!</h4>
 
 		    <div class="newsletter--main-content">
 		    <input type="email" name="newsletter" class="newsletter--field" placeholder="{s name="IndexFooterNewsletterValue"}{/s}" />
@@ -18,7 +18,14 @@
 			</div>
 		   	
 			<div class="newsletter--cookies">
-			<small>cookie hinweis</small>
+		
+                            {* Data protection information *}
+                            {block name="frontend_newsletter_form_privacy"}
+                                {if {config name=ACTDPRTEXT} || {config name=ACTDPRCHECK}}
+                                    {include file="frontend/_includes/privacy.tpl"}
+                                {/if}
+                            {/block}
+		
 			</div>
 		
 		</form>
