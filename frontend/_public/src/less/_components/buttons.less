@@ -38,6 +38,15 @@ Adding the class `is--disabled` changes the element to a disabled button.
     border: 1px solid @btn-default-border-color;
     color: @btn-default-text-color;
 
+    -webkit-transition: background-color 0.4s,border-color 0.4s,color 0.4s ease-in-out;
+    -moz-transition: background-color 0.4s,border-color 0.4s,color 0.4s ease-in-out;
+    -o-transition: background-color 0.4s,border-color 0.4s,color 0.4s ease-in-out;
+    -ms-transition: background-color 0.4s,border-color 0.4s,color 0.4s ease-in-out;
+    transition: background-color 0.4s,border-color 0.4s,color 0.4s ease-in-out;
+
+
+
+
     /** Button icon font size */
     [class^="icon--"] {
         .unitize(@btn-icon-size, 16, font-size);
