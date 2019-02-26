@@ -1,11 +1,3 @@
-
-    {if $Controller|lower == 'index'}
-    {block name="frontend_index_newsletter"}
-        {include file='frontend/newsletter/newsletter.tpl'}
-    {/block}    
-    {/if}
-
-
 {* Footer menu *}
 {block name='frontend_index_footer_menu'}
     <div class="footer--columns block-group">
