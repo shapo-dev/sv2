@@ -1,7 +1,7 @@
 {block name='frontend_footer_newsletter'}		
 <section id="newsletter--footer">
 <div class="container">	
-
+	<div class="content">
 		<form class="newsletter--form" action="{url controller='newsletter'}" method="post">
 		    <input type="hidden" value="1" name="subscribeToNewsletter" />
 
@@ -37,7 +37,7 @@
 			</div>
 		
 		</form>
-
+	</div>
 </div>		
 </section>		
 {/block}
