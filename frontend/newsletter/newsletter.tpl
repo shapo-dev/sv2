@@ -1,5 +1,5 @@
 {block name='frontend_footer_newsletter'}		
-<div class="newsletter--content content block">
+<section class="newsletter--footer">
 	
 
 		<form class="newsletter--form" action="{url controller='newsletter'}" method="post">
@@ -14,5 +14,5 @@
 		    Anmelden<span class="button--text">{s name='IndexFooterNewsletterSubmit'}{/s}</span>
 			</button>
 		</form>
-</div>		
+</section>		
 {/block}	    
