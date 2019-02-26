@@ -53,6 +53,7 @@
             {* Copyright *}
             {block name="frontend_index_shopware_footer_copyright"}
                 <div class="footer--copyright">
+                <p>© {"%Y"|strftime} <b>{config name=shopName}</b>  - Alle Rechte vorbehalten</p>
                    {* s name="IndexCopyright"}{/s *}
                 </div>
             {/block}
