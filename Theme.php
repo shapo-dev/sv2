@@ -439,7 +439,9 @@ public function createConfig(Form\Container\TabContainer $container)
 
     /** @var array Defines the files which should be compiled by the javascript compressor*/ 
     protected $css = array(
+        'src/js/vendors/owl/assets/owl.carousel.css',
         'src/js/vendors/stick-to-me/stick-to-me.css',
+
         /*'src/css/vendors/progressively/progressively.css',
         'src/css/vendors/ysExit/ysExit.css'*/
     );
@@ -447,7 +449,7 @@ public function createConfig(Form\Container\TabContainer $container)
 
     /** @var array Defines the files which should be compiled by the javascript compressor */
     protected $javascript = array(
-        'src/js/vendors/owl/owlcarousel.min.js',
+        'src/js/vendors/owl/owl.carousel.min.js',
 
         'src/js/vendors/moment/moment.min.js',
         'src/js/vendors/stick-to-me/stick-to-me.js',
