@@ -17,31 +17,17 @@ Adding the class `is--disabled` changes the element to a disabled button.
 ```
 */
 
+@animate: background-color 0.4s,border-color 0.4s,color 0.4s ease-in-out;
 
 
 
 .btn {
-    .unitize-padding(2, 10);
-    .unitize(line-height, 32);
-    .border-radius(3px);
-    .appearance();
-    .unitize(@btn-font-size, 16, font-size);
-    .linear-gradient(@transparent, @transparent);
-    -webkit-font-smoothing: inherit;
-    display: inline-block;
-    position: relative;
-    font-weight: @font-bold-weight;
-    text-decoration: none;
-    text-align: left;
-    cursor: pointer;
-    border: 1px solid @btn-default-border-color;
-    color: @btn-default-text-color;
 
-    -webkit-transition: background-color 0.4s,border-color 0.4s,color 0.4s ease-in-out;
-    -moz-transition: background-color 0.4s,border-color 0.4s,color 0.4s ease-in-out;
-    -o-transition: background-color 0.4s,border-color 0.4s,color 0.4s ease-in-out;
-    -ms-transition: background-color 0.4s,border-color 0.4s,color 0.4s ease-in-out;
-    transition: background-color 0.4s,border-color 0.4s,color 0.4s ease-in-out;
+    -webkit-transition: @animate;
+    -moz-transition: @animate;
+    -o-transition: @animate;
+    -ms-transition: @animate;
+    transition: @animate;
 
 
 
