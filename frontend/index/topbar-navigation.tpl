@@ -6,10 +6,10 @@
         {block name="frontend_index_top_bar_main_container"}
             <div class="container block-group">
 
-        {* Top bar usps *}
-        {block name="frontend_index_top_bar_usps"}
-        {include file="index/topbar-usp.tpl"}
-        {/block}
+                {* Top bar usps *}
+                {block name="frontend_index_top_bar_usps"}
+                {include file='frontend/index/topbar-usp.tpl'}
+                {/block}
 
                 {* Top bar navigation *}
                 {block name="frontend_index_top_bar_nav"}
