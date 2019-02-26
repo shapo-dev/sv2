@@ -26,7 +26,7 @@
         {/block}
 
         {block name='frontend_index_footer_minimal'}
-            { include file="frontend/index/footer_minimal.tpl" hideCopyrightNotice=false }
+            {include file="frontend/index/footer_minimal.tpl" hideCopyrightNotice=true}
         {/block}
 
         {* Shopware footer *}
