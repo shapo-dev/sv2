@@ -9,6 +9,7 @@
 
             <div class="newsletter--footer-headline">
             	<h2 class="newsletter--title">{$theme.newsletter_header}</h2>
+            	<p>{$theme.newsletter_content}</p>
             </div>
             
             <div class="newsletter--footer-benefits">
