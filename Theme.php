@@ -396,7 +396,6 @@ public function createConfig(Form\Container\TabContainer $container)
         false
     );
 
-
     // Banner ADS Content
     $banner_ads_header = $this->createTextField(
         'banner_ads_header',
@@ -418,6 +417,53 @@ public function createConfig(Form\Container\TabContainer $container)
 
     // ...last but not least add the tab to the container, which is a tab panel.
     $container->addTab($tab);
+
+
+
+
+
+
+    // FIELD SET -- Newsletter
+    $fieldset = $this->createFieldSet(
+        'newsletter_settings',
+        'Newsletter Einstellungen'
+    );
+ 
+     $newsletter_active = $this->createCheckboxField(
+        'newsletter_active',
+        'Newsletter aktiv?',
+        false
+    );
+
+    // Newsletter Content
+    $newsletter_header = $this->createTextField(
+        'newsletter_header',
+        'Newsletter Header',
+        ''
+    );
+    $newsletter_image = $this->createMediaField(
+        'newsletter_image',
+        'Newsletter Bild',
+        ''
+    );
+
+    // Adding the fields to the fieldset
+    $fieldset->addElement($newsletter_active);  
+    $fieldset->addElement($newsletter_header);  
+    $fieldset->addElement($newsletter_image);  
+    
+    // Create the tab which will be named "My custom colors"
+    $tab = $this->createTab(
+        'newsletter_tab',
+        'Newsletter Einstellungen'
+    );
+
+    // ...add the fieldset to the tab
+    $tab->addElement($fieldset);
+
+    // ...last but not least add the tab to the container, which is a tab panel.
+    $container->addTab($tab);
+
 
 
 
