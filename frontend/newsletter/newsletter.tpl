@@ -8,7 +8,7 @@
 		    <input type="hidden" value="1" name="subscribeToNewsletter" />
 
             <div class="newsletter--footer-headline">
-            	<h2 class="newsletter--title">{s name="sFooterNewsletterHead"}{/s}</h2>
+            	<h2 class="newsletter--title">{$theme.newsletter_header}</h2>
             </div>
             
             <div class="newsletter--footer-benefits">
