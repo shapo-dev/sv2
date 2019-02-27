@@ -451,11 +451,17 @@ public function createConfig(Form\Container\TabContainer $container)
         'Newsletter Bild',
         ''
     );
+    $newsletter_value = $this->createTextField(
+        'newsletter_value',
+        'Newsletter Rabatt',
+        ''
+    );        
 
     // Adding the fields to the fieldset
     $fieldset->addElement($newsletter_active);  
     $fieldset->addElement($newsletter_header);  
     $fieldset->addElement($newsletter_content);  
+    $fieldset->addElement($newsletter_value);  
     $fieldset->addElement($newsletter_image);  
     
     // Create the tab which will be named "My custom colors"
