@@ -1,6 +1,3 @@
-test exit grabber
-
-
 	<div id="stickLayer" style="display:none;" class="stick_popup">
 	  <div class="stick_close" onclick="$.stick_close()">X</div>
 		<div class="stick_content">
@@ -46,7 +43,16 @@ test exit grabber
 			</form>
 		  </div>
 
-            <span class="nl_footer_hint"><small>Abmeldung jederzeit möglich. Mehr Infos dazu <a href="https://www.shapo.de/datenschutz">hier</a></small></span>
+            <span class="nl_footer_hint">
+
+                            {* Data protection information *}
+                            {block name="frontend_newsletter_form_privacy"}
+                                {if {config name=ACTDPRTEXT} || {config name=ACTDPRCHECK}}
+                                    {include file="frontend/_includes/privacy.tpl"}
+                                {/if}
+                            {/block}            
+
+            </span>
 
 
 
