@@ -11,8 +11,8 @@
             </div>
             
             <div class="col2 text-content">
-            <h1>Sicher dir deinen 15% Gutschein!</h1>
-            <p>Jetzt zum Newsletter anmelden und 15% Rabatt auf deine erste Bestellung erhalten!</p>
+            <h1>{$theme.newsletter_header}</h1>
+            <p>{$theme.newsletter_content}</p>
 
 			<div id="form-143491-wrapper">
 				<form id="ktv2-form-143491" accept-charset="UTF-8" method="post" action="https://www.klick-tipp.com/api/subscriber/signin.html">
