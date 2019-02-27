@@ -6,6 +6,7 @@
 	<div class="content">
 		<form class="newsletter--form" action="{url controller='newsletter'}" method="post">
 		    <input type="hidden" value="1" name="subscribeToNewsletter" />
+		    <input type="hidden" value="ms" name="salutation" />
 
             <div class="newsletter--footer-headline">
             	<h2 class="newsletter--title">{$theme.newsletter_header}</h2>
