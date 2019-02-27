@@ -1,5 +1,5 @@
 	<div id="stickLayer" style="display:none;" class="stick_popup">
-	  <div class="stick_close" onclick="$.stick_close()"><i class="ti ti-close"></i></div>
+	  <div class="btn stick_close" onclick="$.stick_close()"><i class="ti ti-close"></i></div>
 		<div class="stick_content">
         
 		
