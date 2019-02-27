@@ -3,7 +3,7 @@
 		<div class="stick_content">
         
 		
-            <div class="col2 image-content" style="background-image: url(https://cdn.shapo.de//media/image/69/ec/91/shapo_nl_2018_600x800.jpg);">
+            <div class="col2 image-content" style="background-image: url({$theme.newsletter_image});">
              <div class="caption">15%</div>
             </div>
             
