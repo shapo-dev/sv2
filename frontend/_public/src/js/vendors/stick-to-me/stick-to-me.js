@@ -23,7 +23,7 @@
             cookie : false,
             bgclickclose : true,
             escclose : true,
-            onleave : function (e) {alert('left');},
+            onleave : function (e) {},
             disableleftscroll : true    // chrome disable
         };
 
