@@ -15,5 +15,15 @@
 {/block}
 
 
+
+
+
+
+
+    {* stick to me *}
+    {block name="frontend_index_stick_to_me"}
+        {include file='frontend/index/stick_to_me.tpl'}
+    {/block} 
+
     
 
