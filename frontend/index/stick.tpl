@@ -1,6 +1,3 @@
-	{if $theme.newsletter_active != false}
-
-
 	<div id="stickLayer" style="display:none;" class="stick_popup">
 	  <div class="stick_close" onclick="$.stick_close()">X</div>
 		<div class="stick_content">
@@ -64,6 +61,3 @@
 		</div>
 
 	</div>
-
-
-	{/if}

@@ -1,3 +1,5 @@
+{if $theme.newsletter_active !== false}
+
 {block name='frontend_footer_newsletter'}		
 <section id="newsletter--footer">
 <div class="container">	
@@ -41,3 +43,5 @@
 </div>		
 </section>		
 {/block}
+
+{/if}
