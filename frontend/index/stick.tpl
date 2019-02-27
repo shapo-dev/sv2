@@ -4,7 +4,7 @@
         
 		
             <div class="col2 image-content" style="background-image: url({$theme.newsletter_image});">
-             <div class="caption">{$theme.newsletter_value}</div>
+             <div class="newsletter_value"><span>{$theme.newsletter_value}</span></div>
             </div>
             
             <div class="col2 text-content">
