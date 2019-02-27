@@ -17,7 +17,7 @@
             trigger: ['top'],
             maxtime : 0,
             mintime : 0,
-            delay: 3000,
+            delay: 0,
             interval: 0,
             maxamount : 5,
             cookie : false,
