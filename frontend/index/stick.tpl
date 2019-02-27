@@ -8,12 +8,8 @@
             </div>
             
             <div class="col2 text-content">
-            <h1>{$theme.newsletter_header}</h1>
-            <p>{$theme.newsletter_content}</p>
-
-
-
-		<form class="newsletter--form" action="{url controller='newsletter'}" method="post">
+	
+			<form class="newsletter--form" action="{url controller='newsletter'}" method="post">
 		    <input type="hidden" value="1" name="subscribeToNewsletter" />
 		    <input type="hidden" value="ms" name="salutation" />
 
@@ -49,10 +45,8 @@
 
 			</div>
 		
-		</form>
-
-
-            </div><!--nl_content-->
+			</form>
+			</div><!--nl_content-->
 
 		</div>
 
