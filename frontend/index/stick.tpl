@@ -1,3 +1,6 @@
+test exit grabber
+
+
 	<div id="stickLayer" style="display:none;" class="stick_popup">
 	  <div class="stick_close" onclick="$.stick_close()">X</div>
 		<div class="stick_content">
