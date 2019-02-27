@@ -19,7 +19,7 @@
             mintime : 0,
             delay: 0,
             interval: 0,
-            maxamount : 5,
+            maxamount : 0,
             cookie : false,
             bgclickclose : true,
             escclose : true,
