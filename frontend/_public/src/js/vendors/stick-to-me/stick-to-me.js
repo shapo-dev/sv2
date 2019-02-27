@@ -55,7 +55,7 @@
         var conth = parseFloat($(settings.layer).css("height"));
         var contw = parseFloat($(settings.layer).css("width"));
         var reqsettings = {
-            backgroundcss: {'z-index':'1000','display':'none'},
+            backgroundcss: {'z-index':'3000','display':'none'},
             boxcss: {'z-index':'5000','position':'fixed','left':'50%','top':'50%','height': (conth) + 'px','width': (contw ) + 'px', 'margin-left':(-contw/2)+'px', 'margin-top':(-conth/2) + 'px'}
         };
 
