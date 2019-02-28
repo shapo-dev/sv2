@@ -38,6 +38,12 @@
             {* Shop header *}
             {block name='frontend_index_navigation'}
                 <header class="header-main">
+                    
+                    {block name='frontend_index_mobile'}
+                    {include file="frontend/index/mobile-header.tpl"}
+                    {/block}
+
+
 
                     {* Include the top bar navigation *}
                     {block name='frontend_index_top_bar_container'}
