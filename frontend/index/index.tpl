@@ -48,9 +48,8 @@
                         <div class="container header--navigation">
 
                             {* added Search container *}
-                            {* Include of the search form *}
-                            {block name='frontend_index_search_include'}
-                                {include file="frontend/index/search.tpl"}
+                            {block name='frontend_index_search_container'}
+                                {include file="frontend/index/search-form.tpl"}
                             {/block}
 
                             {* Logo container *}
