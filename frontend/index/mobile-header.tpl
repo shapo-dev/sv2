@@ -3,7 +3,7 @@
 
 	<div class="col-left">
 		<a class="btn" href="#offcanvas--left" data-offcanvas="true" data-offCanvasSelector=".sidebar-main"><i class="ti ti-menu"></i></a>
-		<a class="btn"><i class="ti ti-search"></i></a>
+		<a class="btn" href="#show-hide--search"><i class="ti ti-search"></i></a>
 	</div>
 	<div class="col-mid">logo</div>
 	
