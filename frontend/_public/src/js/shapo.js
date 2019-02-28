@@ -75,7 +75,7 @@ $.stickToMe({
   mintime : 0,
   delay: 0,
   interval: 0,
-  maxamount : 0,
+  maxamount : 1,
   cookie : true,
   bgclickclose : true,
   escclose : true,
