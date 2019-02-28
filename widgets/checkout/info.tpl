@@ -23,7 +23,7 @@
             <a href="{url controller='account'}"
                title="{"{if $userInfo}{s name="AccountGreetingBefore" namespace="frontend/account/sidebar"}{/s}{$userInfo['firstname']}{s name="AccountGreetingAfter" namespace="frontend/account/sidebar"}{/s} - {/if}{s namespace='frontend/index/checkout_actions' name='IndexLinkAccount'}{/s}"|escape}"
                class="btn is--icon-left entry--link account--link{if $userInfo} account--user-loggedin{/if}">
-                <i class="icon--account"></i>
+                <i class="ti ti-user"></i>
                 {if $userInfo}
                     <span class="account--display navigation--personalized">
                         <span class="account--display-greeting">
