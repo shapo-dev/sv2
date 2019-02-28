@@ -27,7 +27,7 @@
                 <div class="footer--logo">
                  <a class="" href="{url controller='index'}" title="{$sShopname}">
                 {if $userInfo}
-                {$userInfo['firstname']} 's 
+                <span class="userInfo">{$userInfo['firstname']} 's </span>
                 {/if}
                 
 
