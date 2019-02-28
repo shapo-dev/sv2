@@ -49,7 +49,7 @@
 
                             {* Logo container *}
                             {block name='frontend_index_logo_container'}
-                                {include file="frontend/index/logo-container.tpl"}
+                                {* include file="frontend/index/logo-container.tpl" *}
                             {/block}
 
                             {* Shop navigation *}
