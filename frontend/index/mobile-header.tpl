@@ -1,9 +1,15 @@
 <div class="mobile-header">
 	<div class="container">
 
-	<div class="col-left">nav + search</div>
+	<div class="col-left">
+		<a class="btn"><i class="ti ti-menu"></i></a>
+		<a class="btn"><i class="ti ti-search"></i></a>
+	</div>
 	<div class="col-mid">logo</div>
-	<div class="col-right">cart</div>
+	<div class="col-right">
+		<a class="btn"><i class="ti ti-heart"></i></a>
+		<a class="btn"><i class="ti ti-bag"></i></a>
+	</div>
 
 	</div>
 </div>	
