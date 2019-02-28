@@ -44,12 +44,6 @@
                         {include file="frontend/index/topbar-navigation.tpl"}
                     {/block}
 
-                    {block name='frontend_index_mobile'}
-                    {include file="frontend/index/mobile-header.tpl"}
-                    {/block}
-
-
-
                     {block name='frontend_index_header_navigation'}
                         <div class="container header--navigation">
 
