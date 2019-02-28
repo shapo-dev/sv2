@@ -47,6 +47,11 @@
                     {block name='frontend_index_header_navigation'}
                         <div class="container header--navigation">
 
+                            {* added Search container *}
+                            {block name='frontend_index_search_container'}
+                                { include file="frontend/index/search-form.tpl"}
+                            {/block}
+
                             {* Logo container *}
                             {block name='frontend_index_logo_container'}
                                 {* include file="frontend/index/logo-container.tpl" *}
