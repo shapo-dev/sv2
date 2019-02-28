@@ -8,7 +8,7 @@
                     <i class="ti ti-search"></i>
 
                     {block name='frontend_index_search_display'}
-                        <span class="search--display">{s namespace='frontend/index/search' name="IndexSearchFieldSubmit"}{/s}</span>
+                        <span class="search--display">{*s namespace='frontend/index/search' name="IndexSearchFieldSubmit"}{/s*}</span>
                     {/block}
                 </a>
 
