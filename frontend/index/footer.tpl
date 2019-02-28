@@ -26,9 +26,9 @@
             {block name="frontend_index_shopware_footer_logo"}
                 <div class="footer--logo">
                  <a class="" href="{url controller='index'}" title="{$sShopname}">
-                {if $userInfo}
+                {*  if $userInfo}
                 <span class="userInfo">{$userInfo['firstname']} 's </span>
-                {/if}
+                {/if *}
                 
 
                 <img class="footer-logo" src="{link file='frontend/_public/src/img/logos/shapo_white.svg'}" alt="{$sShopname}">
