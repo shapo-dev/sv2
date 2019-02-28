@@ -34,7 +34,7 @@
 			</button>
 			</div>
 		   	
-			<div class="newsletter--cookies" style="margin-top: 10px; font-size: 11px">
+			<div class="newsletter--cookies">
 		
                             {* Data protection information *}
                             {block name="frontend_newsletter_form_privacy"}
