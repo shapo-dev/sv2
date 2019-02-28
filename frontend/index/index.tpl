@@ -49,7 +49,7 @@
 
                             {* added Search container *}
                             {block name='frontend_index_search_container'}
-                                {include file="frontend/index/search.tpl"}
+                                {include file="frontend/index/search-block.tpl"}
                             {/block}
 
                             {* Logo container *}
