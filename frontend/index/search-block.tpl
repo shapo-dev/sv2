@@ -1,5 +1,6 @@
 {* Search form *}
-        {block name='frontend_index_search'}
+{block name='frontend_index_search'}
+<div class="search">
             <ul>
             <li class="navigation--entry entry--search" role="menuitem" data-search="true" aria-haspopup="true"{if $theme.focusSearch && {controllerName|lower} == 'index'} data-activeOnStart="true"{/if} data-minLength="{config name="MinSearchLenght"}">
                 {*s namespace="frontend/index/search" name="IndexTitleSearchToggle" assign="snippetIndexTitleSearchToggle"}{/s*}
@@ -17,4 +18,5 @@
                 {/block}
             </li>
         </ul>
-        {/block}
+</div>
+{/block}
