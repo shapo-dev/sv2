@@ -434,6 +434,11 @@ public function createConfig(Form\Container\TabContainer $container)
         'Newsletter aktiv?',
         false
     );
+     $newsletter_benefits = $this->createCheckboxField(
+        'newsletter_benefits',
+        'Newsletter Benefits aktiv?',
+        false
+    );     
 
     // Newsletter Content
     $newsletter_header = $this->createTextField(
@@ -459,6 +464,8 @@ public function createConfig(Form\Container\TabContainer $container)
 
     // Adding the fields to the fieldset
     $fieldset->addElement($newsletter_active);  
+    $fieldset->addElement($newsletter_benefits);  
+
     $fieldset->addElement($newsletter_header);  
     $fieldset->addElement($newsletter_content);  
     $fieldset->addElement($newsletter_value);  

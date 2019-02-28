@@ -12,12 +12,14 @@
             	<h2 class="newsletter--title">{$theme.newsletter_header}</h2>
             	<p>{$theme.newsletter_content}</p>
             </div>
-            
+
+			{if $theme.newsletter_benefits !== false}
             <div class="newsletter--footer-benefits">
             	<span><i class="ti ti-check"></i> {s name="sFooterNewsletterBenefit1"}{/s}</span>
             	<span><i class="ti ti-check"></i> {s name="sFooterNewsletterBenefit2"}{/s}</span>
             	<span><i class="ti ti-check"></i> {s name="sFooterNewsletterBenefit3"}{/s}</span>
             </div>
+            {/if}
 
 		    <div class="newsletter--main-content">
 		    <input type="email" name="newsletter" class="newsletter--field" placeholder="{s name="IndexFooterNewsletterValue"}{/s}" />
