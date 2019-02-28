@@ -138,6 +138,21 @@
                         {/block}
                     </div>
                 </section>
+            
+
+            {*added newsletter*}
+            {if $Controller|lower == 'index'}
+            {block name="frontend_index_newsletter"}
+                {include file='frontend/newsletter/newsletter.tpl'}
+            {/block}    
+            {/if}
+
+            {*added stick to me*}
+            {* stick to me *}
+            {block name="frontend_index_stick_to_me"}
+                {include file='frontend/index/stick.tpl'}
+            {/block} 
+
             {/block}
 
             {* Footer *}
