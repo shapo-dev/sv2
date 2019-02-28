@@ -38,7 +38,7 @@
             {* Shop header *}
             {block name='frontend_index_navigation'}
                 <header class="header-main">
-                    NEW HEADER 2019
+
                     {* Include the top bar navigation *}
                     {block name='frontend_index_top_bar_container'}
                         {include file="frontend/index/topbar-navigation.tpl"}
@@ -52,7 +52,7 @@
                                 {* include file="frontend/index/logo-container.tpl" *}
                             {/block}
 
-                            {* Shop navigation *}
+                            {* Shop navigation // removed search *}
                             {block name='frontend_index_shop_navigation'}
                                 {include file="frontend/index/shop-navigation.tpl"}
                             {/block}
