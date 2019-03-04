@@ -15,7 +15,7 @@ It contains the viewport specific styles inside media queries.
 
 @media screen and (min-width: @tabletViewportWidth) {
     .navigation-main {
-        border-bottom: 0px solid @gray-light;
+        border-bottom: 1px solid @brand-primary;
         display: block;
         position: relative;
 
@@ -33,62 +33,32 @@ It contains the viewport specific styles inside media queries.
         }
 
         .navigation--link {
-            position: relative;
-            text-transform: uppercase;
             .transition(none);
             .unitize-padding(8, 14);
             .unitize(font-size, 16);
-            .border-radius-multi(0px, 0px, 0, 0);
+            .border-radius-multi(3px, 3px, 0, 0);
             margin: 0;
             display: block;
             cursor: pointer;
             color: @text-color;
 
-            &:hover { color: @sp-pink; }
+            &:hover { color: @brand-primary; }
         }
 
         .is--active .navigation--link {
             background-image: none;
             font-weight: @font-bold-weight;
-            color: @sp-pink;
+            color: #fff;
 
-            &:hover { color: @brand-primary; }
-        }     
+            &:hover { color: #fff; }
+        }
     }
 }
-
-.navigation--link:after {
-    content: " ";
-    background:#000;
-    height: 2px;
-    opacity: 0;
-
-    display: block;
-    position: absolute;
-    -webkit-transition: .3s;
-    -o-transition: .3s;
-    transition: .3s;
-    -webkit-transition-timing-function: cubic-bezier(.58,.3,.005,1);
-    -o-transition-timing-function: cubic-bezier(.58,.3,.005,1);
-    transition-timing-function: cubic-bezier(.58,.3,.005,1);
-
-}
-.navigation--link:hover .navigation--link:after {
-    width: 100%;
-    opacity: 1;
-    left: 0;
-    bottom: 0;
-    background: @sp-pink;
-}
-
-
 
 @media screen and (min-width: @desktopViewportWidth) {
     .navigation-main {
         .navigation--list {
             padding: 0;
-            border-bottom: 1px solid @gray-light;
-
         }
     }
 }
