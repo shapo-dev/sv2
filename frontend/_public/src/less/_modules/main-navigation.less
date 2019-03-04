@@ -52,8 +52,25 @@ It contains the viewport specific styles inside media queries.
             color: @sp-pink;
 
             &:hover { color: @brand-primary; }
-        }
+        }     
     }
+}
+
+.navigation--link:after {
+    content: "";
+    background:#000;
+    height: 2px;
+    opacity: 0;
+
+    display: block;
+    position: absolute;
+    -webkit-transition: .3s;
+    -o-transition: .3s;
+    transition: .3s;
+    -webkit-transition-timing-function: cubic-bezier(.58,.3,.005,1);
+    -o-transition-timing-function: cubic-bezier(.58,.3,.005,1);
+    transition-timing-function: cubic-bezier(.58,.3,.005,1);
+
 }
 
 @media screen and (min-width: @desktopViewportWidth) {
