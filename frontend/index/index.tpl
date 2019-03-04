@@ -11,7 +11,7 @@
     {include file='frontend/index/header.tpl'}
 {/block}
 
-<body class="{block name="frontend_index_body_classes"}{strip}
+<body id="shapo" class="{block name="frontend_index_body_classes"}{strip}
     is--ctl-{controllerName|lower} is--act-{controllerAction|lower}
     {if $sUserLoggedIn} is--user{/if}
     {if $sOneTimeAccount} is--one-time-account{/if}
