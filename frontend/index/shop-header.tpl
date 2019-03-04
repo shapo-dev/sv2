@@ -25,6 +25,7 @@
                             {/block}
                         </div>
                     {/block}
+                
                 </header>
 
                 {* Maincategories navigation top *}
