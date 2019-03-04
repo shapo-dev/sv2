@@ -1025,7 +1025,18 @@ More precise designations are commented inside the document.
 @media screen and (min-width: @tabletLandscapeViewportWidth) {
 
     .header-main {
-        .logo-main { width: 30%; }
+        .logo-main {
+            width: 240px;
+            text-align: center;
+            padding: 5px;
+            margin: 0 auto;
+            z-index: 5;
+            position: absolute;
+            left: 50%;
+            margin-left: -120px;
+        }
+
+
         .shop--navigation { width: 70%; }
     }
 
