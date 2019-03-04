@@ -528,7 +528,7 @@ public function createConfig(Form\Container\TabContainer $container)
     protected $extend = 'Responsive';
     /** @var string Defines the human readable name */
     protected $name = 'Shapo';
-    protected $injectBeforePlugins =  true;
+    protected $injectBeforePlugins =  false;
     /** @var string Description of the theme */
     protected $description = 'Shapo custom Shopware 5 theme';
     /** @var string The author of the theme */
