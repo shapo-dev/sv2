@@ -27,13 +27,13 @@ input[type="number"],
 input[type="email"],
 input[type="tel"] {
     .appearance(none);
-    .border-radius();
+    .border-radius(0);
     .box-sizing();
     .unitize(line-height, 19);
     .unitize(@input-font-size, 16, font-size);
     .unitize-width(290);
     .unitize-padding(10, 10, 9, 10);
-    .box-shadow(inset 0 1px 1px @gray-dark);
+    .box-shadow(none);
     background: @input-bg;
     border: 1px solid @input-border;
     border-top-color: darken(@input-border, 5%);
