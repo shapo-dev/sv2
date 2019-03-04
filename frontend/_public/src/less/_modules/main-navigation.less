@@ -15,7 +15,7 @@ It contains the viewport specific styles inside media queries.
 
 @media screen and (min-width: @tabletViewportWidth) {
     .navigation-main {
-        border-bottom: 3px solid @gray-light;
+        border-bottom: 0px solid @gray-light;
         display: block;
         position: relative;
 
@@ -47,7 +47,7 @@ It contains the viewport specific styles inside media queries.
         }
 
         .is--active .navigation--link {
-            .primary-gradient();
+            background-image: none;
             font-weight: @font-bold-weight;
             color: @sp-pink;
 
