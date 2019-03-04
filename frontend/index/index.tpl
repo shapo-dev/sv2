@@ -24,6 +24,7 @@
 
     {block name="frontend_index_page_wrap"}
         <div class="page-wrap">
+        	<!-- BEGIN PAGE WRAP -->
 
             {* Message if javascript is disabled *}
             {block name="frontend_index_no_script_message"}
@@ -147,6 +148,8 @@
 
             {block name='frontend_index_body_inline'}{/block}
         </div>
+        <!-- END PAGE WRAP -->
+
     {/block}
 
     {* If required add the cookiePermission hint *}
