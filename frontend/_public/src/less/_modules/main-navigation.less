@@ -72,6 +72,14 @@ It contains the viewport specific styles inside media queries.
     transition-timing-function: cubic-bezier(.58,.3,.005,1);
 
 }
+.is--active .navigation--link:after {
+    width: 100%;
+    opacity: 1;
+    left: 0;
+    bottom: 0;
+}
+
+
 
 @media screen and (min-width: @desktopViewportWidth) {
     .navigation-main {
