@@ -81,7 +81,7 @@
 
             <span class="badge is--primary is--minimal cart--quantity{if $sBasketQuantity < 1} is--hidden{/if}">{$sBasketQuantity}</span>
 
-            <i class="icon--basket"></i>
+            <i class="ti ti-bag"></i>
 
             <span class="cart--amount">
                 {$sBasketAmount|currency} {s name="Star" namespace="frontend/listing/box_article"}{/s}
