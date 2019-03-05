@@ -503,7 +503,6 @@ public function createConfig(Form\Container\TabContainer $container)
 
 }
 
-    protected $discardedLessThemes = [\Shopware\Themes\Responsive\Theme::class];
 
 
     /** @var array Defines the files which should be compiled by the javascript compressor*/ 
