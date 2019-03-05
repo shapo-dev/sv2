@@ -10,13 +10,14 @@
                     {block name='frontend_index_header_navigation'}
                         <div class="container header--navigation">
 
+
                             {* Logo container *}
                             {block name='frontend_index_logo_container'}
-                                {include file="frontend/index/logo-container.tpl"}
                             {/block}
 
                             {* Shop navigation *}
                             {block name='frontend_index_shop_navigation'}
+                                {include file="frontend/index/logo-container.tpl"}
                                 {include file="frontend/index/shop-navigation.tpl"}
                             {/block}
 
